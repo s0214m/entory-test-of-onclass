@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  resources :tasks
+  resources :tasks, defaults: { format: :json }
 end
